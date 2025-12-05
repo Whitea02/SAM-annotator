@@ -1,0 +1,45 @@
+# Python/PyTorch
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Env
+venv/
+env/
+.env
+
+# YOLO / Ultralytics
+runs/
+wandb/
+*.pt
+*.onnx
+# 允许提交的小模型
+!yolov8s-seg.pt
+!yolo11n.pt
+!models/*.pt
+
+# SAM2
+sam2/checkpoints/*.pt
+sam2/checkpoints/*.pth
+
+# IDE
+.idea/
+.vscode/
+*.swp
