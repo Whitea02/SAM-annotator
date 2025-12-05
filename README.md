@@ -29,7 +29,7 @@ sam-yolo-annotator/
 
 本项目依赖两个 Python 环境（避免依赖冲突）：
 
-1.  **标注环境 (`sam3`)**: 用于运行 SAM 2。
+1.  **标注环境 (`sam3`)**: 用于运行 SAM 2（也可以用SAM3，需要上huggingface提交申请）。
 2.  **训练环境 (`venv` / `yolo_training`)**: 用于训练 YOLOv8。
 
 ### 1. SAM 2 环境配置
